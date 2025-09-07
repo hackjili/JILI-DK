@@ -5,3 +5,4 @@ body{min-height:100vh; display:flex; flex-direction:column; align-items:center; 
 .animate-pulse-scale{display:inline-block; animation:pulseScale 1.5s infinite ease-in-out;}
 @keyframes pulseScale{0%,100%{transform:scale(1);}50%{transform:scale(1.1);}}
 .hidden{display:none;}
+.timer-card{position:relative;}
