@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Super Ace Live PIN</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="main.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
 
+<!-- Lock Screen -->
+<div id="lockScreen" class="lock-screen">
+  <h2>🔒 Enter PIN</h2>
+  <input type="password" id="pinInput" placeholder="Enter PIN">
+  <button onclick="login()">Unlock</button>
+  <p id="msg"></p>
+</div>
+
+<!-- Main Content -->
+<div id="mainContent" class="hidden">
+  <div id="timerCard">
+    <h2>T4NV1R WIN 😍</h2>
+    <div id="clock"></div>
+    <div id="tinyTime"></div>
+    <p id="status"></p>
+  </div>
+
+  <!-- Admin Panel -->
+  <div id="adminPanel">
+    <h2>Admin Panel 🔑</h2>
+    <input type="password" id="adminPass" placeholder="Admin Password">
+    <input type="text" id="newPin" placeholder="Set new PIN">
+    <input type="text" id="resetIP" placeholder="Reset IP">
+    <button onclick="adminUpdate()">Update PIN / Reset IP</button>
+  </div>
+</div>
+
+</body>
+</html>
