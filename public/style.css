@@ -1,1 +1,7 @@
-
+body{min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; margin:0; font-family:sans-serif;}
+.lock-screen, #adminPanel, #timerCard{background:white; border-radius:1rem; padding:1.5rem; box-shadow:0 4px 12px rgba(0,0,0,0.2); max-width:24rem; width:100%; text-align:center; margin-bottom:1rem;}
+#msg{color:red; margin-top:0.5rem;}
+#tinyTime{position:absolute; bottom:1rem; right:1rem; font-weight:bold;}
+.animate-pulse-scale{display:inline-block; animation:pulseScale 1.5s infinite ease-in-out;}
+@keyframes pulseScale{0%,100%{transform:scale(1);}50%{transform:scale(1.1);}}
+.hidden{display:none;}
